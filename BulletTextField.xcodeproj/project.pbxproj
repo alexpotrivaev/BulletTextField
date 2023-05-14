@@ -11,6 +11,10 @@
 		A3069A432A10ED8100DC06FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3069A422A10ED8100DC06FF /* ContentView.swift */; };
 		A3069A452A10ED8200DC06FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3069A442A10ED8200DC06FF /* Assets.xcassets */; };
 		A3069A492A10ED8200DC06FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3069A482A10ED8200DC06FF /* Preview Assets.xcassets */; };
+		A3069A502A10EDDE00DC06FF /* BulletListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3069A4F2A10EDDE00DC06FF /* BulletListView.swift */; };
+		A3069A522A10EE4600DC06FF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3069A512A10EE4600DC06FF /* ViewModel.swift */; };
+		A3069A542A10EEEB00DC06FF /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3069A532A10EEEB00DC06FF /* Item.swift */; };
+		A3069A562A10F06200DC06FF /* TextAlignmentSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3069A552A10F06200DC06FF /* TextAlignmentSelectorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		A3069A442A10ED8200DC06FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3069A462A10ED8200DC06FF /* BulletTextField.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BulletTextField.entitlements; sourceTree = "<group>"; };
 		A3069A482A10ED8200DC06FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3069A4F2A10EDDE00DC06FF /* BulletListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletListView.swift; sourceTree = "<group>"; };
+		A3069A512A10EE4600DC06FF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A3069A532A10EEEB00DC06FF /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A3069A552A10F06200DC06FF /* TextAlignmentSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignmentSelectorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				A3069A402A10ED8100DC06FF /* BulletTextFieldApp.swift */,
 				A3069A422A10ED8100DC06FF /* ContentView.swift */,
+				A3069A4F2A10EDDE00DC06FF /* BulletListView.swift */,
+				A3069A552A10F06200DC06FF /* TextAlignmentSelectorView.swift */,
+				A3069A512A10EE4600DC06FF /* ViewModel.swift */,
+				A3069A532A10EEEB00DC06FF /* Item.swift */,
 				A3069A442A10ED8200DC06FF /* Assets.xcassets */,
 				A3069A462A10ED8200DC06FF /* BulletTextField.entitlements */,
 				A3069A472A10ED8200DC06FF /* Preview Content */,
@@ -139,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3069A562A10F06200DC06FF /* TextAlignmentSelectorView.swift in Sources */,
+				A3069A542A10EEEB00DC06FF /* Item.swift in Sources */,
 				A3069A432A10ED8100DC06FF /* ContentView.swift in Sources */,
+				A3069A502A10EDDE00DC06FF /* BulletListView.swift in Sources */,
+				A3069A522A10EE4600DC06FF /* ViewModel.swift in Sources */,
 				A3069A412A10ED8100DC06FF /* BulletTextFieldApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

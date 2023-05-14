@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct BulletTextFieldApp: App {
+
+    // MARK: - Public bindings
+
+    @StateObject var viewModel = ViewModel()
+
+    // MARK: - Body
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }
