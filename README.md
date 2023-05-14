@@ -2,6 +2,8 @@
 
 I need help creating a TextField with bullet lists for the use in a SwiftUI app.
 
+![Expected designs](./visuals.png "Design")
+
 ## Few requirements and things to keep in mind:
 
 1. The TextField has to work for multiline use case (e.g. either use SwiftUI's TextField with iOS 16's axis: .vertical or UITextView).
